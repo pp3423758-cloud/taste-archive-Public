@@ -1,21 +1,20 @@
 /* ═══ 내 디자인 시스템 · tokens.css (weekly-site-kit 토큰 16칸) ═══
-   4·5주에 레퍼런스에서 뽑은 내 DESIGN.md 토큰 표 값을 그대로 옮겨 적는다.
-   아래 값은 비어 있지 않게 넣어 둔 시작값이다. 무엇이든 바꿔도 된다. */
+   따뜻한 버전: 크림빛 배경 + 진한 갈색 글자 + 테라코타 강조 + 부드러운 모서리 */
 :root {
-  --color-bg: #F4F1EA;        /* 배경 */
-  --color-ink: #1A1A1A;       /* 본문 */
-  --color-muted: #6B6B6B;     /* 보조 글자 */
-  --color-accent: #C2410C;    /* 강조 1점 */
+  --color-bg: #FBF3E8;        /* 배경: 따뜻한 크림 */
+  --color-ink: #3B2A20;       /* 본문: 진한 갈색 */
+  --color-muted: #7A5F4D;     /* 보조 글자: 밀크티 브라운 */
+  --color-accent: #B4502A;    /* 강조 1점: 테라코타 */
   --font-body: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;    /* 본문 */
-  --font-display: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; /* 제목 */
+  --font-display: 'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Malgun Gothic', serif; /* 제목: 명조 */
   --size-body: 17px;          /* 본문 */
-  --size-h3: 20px;            /* 소제목 */
-  --size-h2: 32px;            /* 구역 제목 */
-  --size-h1: 56px;            /* 첫 화면 제목 */
+  --size-h3: 21px;            /* 소제목 */
+  --size-h2: 34px;            /* 구역 제목 */
+  --size-h1: 60px;            /* 첫 화면 제목 */
   --space-xs: 8px;            /* 요소 안 */
   --space-s: 16px;            /* 요소 사이 */
   --space-m: 40px;            /* 그룹 사이 */
   --space-section: 120px;     /* 구역 사이 */
-  --radius: 0px;              /* 라운딩 */
+  --radius: 14px;             /* 라운딩: 부드러운 모서리 */
   --max-width: 1120px;        /* 콘텐츠 최대 폭 */
 }
